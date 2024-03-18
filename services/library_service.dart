@@ -3,6 +3,9 @@ import '../models/book.dart';
 class LibraryService {
   final Map<String, Book> _books = {};
 
+  // get method of _books
+  get books => _books;
+
   /**
    * Adding new Book with handling if is exist
    */
