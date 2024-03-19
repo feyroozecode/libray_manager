@@ -1,3 +1,4 @@
+//main.rs
 use radio;
 use std::fs::File;
 use std::io::BufReader;
@@ -14,7 +15,7 @@ fn play_once(file_name: &str) {
 }
 
 fn main() {
-    println!("Salam Hi!");
+    println!("Salam Alleykoum!");
 
     play_once("assets/beep.wav");
 }

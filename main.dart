@@ -1,6 +1,9 @@
+import 'app/App.dart';
 import 'models/book.dart';
 
 void main() {
+  App app = new App();
+
   int level = 0;
 
   Book book = new Book(
@@ -12,4 +15,6 @@ void main() {
   print(level);
 
   print(book.toString());
+
+  app.start();
 }
